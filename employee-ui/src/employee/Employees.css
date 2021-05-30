@@ -1,0 +1,68 @@
+.employee-parent {
+	
+}
+
+.employee {
+	display: flex;
+	border: 1px solid grey;
+	padding: 5px;
+	margin-bottom: 5px;
+	box-shadow: 2px 5px 5px 0px grey;
+}
+
+.employee__create {
+
+}
+/*.employee:hover {
+	background-color: lightgrey;
+}*/
+
+.employee__name {
+	width: 50%;
+} 
+
+.employee__department {
+	width: 50%;
+}
+
+.employee-btn {
+	border: none;
+	padding:5px;
+	margin-right: 5px;
+	min-width: 70px;
+	cursor: pointer;;
+}
+
+.employee-btn:hover {
+	opacity:0.6;
+}
+
+.btn-disable {
+	background-color: red;
+	color: white;
+}
+
+.btn-edit {
+	background-color:blue;
+	color: white;
+}
+
+/* form */
+
+.form-field {
+	display: flex;
+	align-items: center;
+}
+
+.form-label {
+	width: 30%;
+}
+
+.form-control {
+	width:50%;
+}
+
+
+
+
+
