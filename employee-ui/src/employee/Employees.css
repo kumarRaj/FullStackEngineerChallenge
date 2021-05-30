@@ -62,7 +62,30 @@
 	width:50%;
 }
 
+/* actions */
 
+.actions {
+	display: flex;
+	min-height: 100vh;
+}
+
+.sidebar {
+	width: 30%;
+	background-color: lightseagreen;
+}
+
+.layout {
+	width:70%;
+}
+
+.sidebar-name {
+	cursor: pointer;
+	padding: 5px;
+}
+
+.sidebar-name:hover {
+	font-weight: bold;
+}
 
 
 
