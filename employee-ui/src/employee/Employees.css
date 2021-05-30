@@ -8,6 +8,7 @@
 	padding: 5px;
 	margin-bottom: 5px;
 	box-shadow: 2px 5px 5px 0px grey;
+	align-items: center;
 }
 
 .employee__create {
@@ -30,7 +31,8 @@
 	padding:5px;
 	margin-right: 5px;
 	min-width: 70px;
-	cursor: pointer;;
+	cursor: pointer;
+	height: fit-content;
 }
 
 .employee-btn:hover {
